@@ -1,0 +1,11 @@
+<div style="display: flex; flex-direction:column">
+
+{{#each tracks as |track|}}
+<div >
+<p>{{track.name}}</p>
+ <audio controls src="{{track.preview_url}}"></audio>
+
+</div>
+ 
+{{/each}}
+</div>
